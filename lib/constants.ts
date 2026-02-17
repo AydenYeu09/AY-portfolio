@@ -7,47 +7,47 @@ export const siteConfig = {
 			title: 'Home',
 			href: '/',
 		},
-		{
-			title: 'About',
-			href: '/about',
-		},
-		{
-			title: 'Education',
-			href: '/education',
-		},
-		{
-			title: 'Skills',
-			href: '/skills',
-		},
-		{
-			title: 'Experience',
-			href: '/experience',
-		},
+		// {
+		// 	title: 'About',
+		// 	href: '/about',
+		// },
+		// {
+		// 	title: 'Education',
+		// 	href: '/education',
+		// },
+		// {
+		// 	title: 'Skills',
+		// 	href: '/skills',
+		// },
+		// {
+		// 	title: 'Experience',
+		// 	href: '/experience',
+		// },
 		{
 			title: 'Projects',
 			href: '/projects',
 		},
-		{
-			title: 'Certificates',
-			href: '/certificates',
-		},
-		{
-			title: 'Blog',
-			href: '/blog',
-		},
-		{
-			title: 'Contact',
-			href: '/contact',
-		},
+		// {
+		// 	title: 'Certificates',
+		// 	href: '/certificates',
+		// },
+		// {
+		// 	title: 'Blog',
+		// 	href: '/blog',
+		// },
+		// {
+		// 	title: 'Contact',
+		// 	href: '/contact',
+		// },
 	],
 	links: {
 		github: 'https://github.com/yourusername',
-		linkedin: 'https://linkedin.com/in/yourusername',
-		twitter: 'https://twitter.com/yourusername',
-		facebook: 'https://facebook.com/yourusername',
+		// linkedin: 'https://linkedin.com/in/yourusername',
+		// twitter: 'https://twitter.com/yourusername',
+		// facebook: 'https://facebook.com/yourusername',
 		instagram: 'https://instagram.com/yourusername',
-		whatsapp: 'https://wa.me/yourphonenumber',
-		email: 'mailto:youremail@example.com',
+		// whatsapp: 'https://wa.me/yourphonenumber',
+		email: 'ayden.yeu@gmail.com',
 		phone: 'tel:+1234567890',
 	},
 };
@@ -102,31 +102,59 @@ export type Project = {
 
 export const projects: Project[] = [
 	{
-		title: 'Smart Home Automation System',
+		title: 'Morphing Quadcopter (Current)',
 		description:
-			'Designed and implemented a smart home automation system using IoT technologies to control lighting, temperature, and security features.',
-		image: 'https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg',
-		tags: ['IoT', 'Arduino', 'C++', 'Mobile App'],
-		link: '#',
+			'Currently designing and building a quadcopter with telescoping arms and active rotor tilt to study how these changes can enhance stability under varying gust patterns. I plan to implement a control system that adjusts the arm length and rotor tilt in real time based on sensor feedback.',
+		image: '/images/md.png',
+		tags: ['Onshape', 'MATLAB', 'Python', 'Control Systems', '3D Printing'],
+		// link: '#',
 		repo: '#',
 	},
 	{
-		title: 'Structural Analysis Software',
+		title: 'Calctastrophe: Beetleweight Combat Robot (Current)',
 		description:
 			'Developed software for structural analysis of beams and trusses using numerical methods and visualization techniques.',
-		image: 'https://images.pexels.com/photos/1036657/pexels-photo-1036657.jpeg',
-		tags: ['MATLAB', 'Python', 'FEA', 'Structural Engineering'],
-		link: '#',
-		repo: '#',
+		image: '/images/cb.png',
+		tags: ['Onshape', 'Fusion360', '3D Printing', 'CNC Machining', 'Soldering'],
+		// link: '#',
+		repo: 'https://github.com/AydenYeu09/CalcTastrophe-3lb-Vert',
 	},
 	{
-		title: 'Renewable Energy Monitoring',
+		title: 'FIRST Robotics Competition Software and CAD Work (2023-2026)',
 		description:
 			'Created a system to monitor and analyze performance of solar panels and wind turbines for optimal energy production.',
-		image: 'https://images.pexels.com/photos/356036/pexels-photo-356036.jpeg',
+		image: '/images/frc.png',
 		tags: ['Data Analysis', 'IoT', 'Renewable Energy', 'Visualization'],
-		link: '#',
+		// link: '#',
 		repo: '#',
+	},
+
+	{
+		title: '150g Combat Robotics Projects (2024-2025)',
+		description:
+			'Constructed two 150g combat robots for the Fairyweight class, optimizing for speed and durability. Each robot features a custom-designed NylonX chassis and is powered by 2S LiPo batteries.',
+		image: '/images/150g.png',
+		tags: ['Onshape', 'Fusion360', '3D Printing', 'Soldering'],
+		// link: '#',
+		repo: '#',
+	},
+
+	{
+		title: 'Better Buildings (2024)',
+		description:
+			'Co-developed a web app for reporting and tracking school infrastructure issues, featuring student/teacher report submission, admin dashboard with repair prioritization, upvoting system, and maintenance announcements.',
+		image: '/images/bb.png',
+		tags: ['Web Development', 'JavaScript', 'Bootstrap', 'Node.js'],
+		// link: '#',
+		repo: '#',
+	},
+
+	{
+		title: 'W.A.R: War-Playing Automated Robot (2024)',
+		description:
+			'Programmed and constructed the electronic systems for my group\'s card playing robot, using AprilTag detection to identify card position and values as well as soldered and routed electronics for the robot.',
+		image: '/images/WAR_robot.png',
+		tags: ['Onshape', '3D Printing', 'Soldering'],
 	},
 ];
 

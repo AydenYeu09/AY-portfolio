@@ -26,8 +26,7 @@ export default function ProjectsPage() {
 					>
 						<h1 className="text-4xl font-bold mb-4">Projects</h1>
 						<p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-							A showcase of my engineering projects, demonstrating practical application
-							of skills and innovative problem-solving.
+							A showcase of my engineering projects, demonstrating my skills and experience in mechanical design, fabrication, and robotics. 
 						</p>
 					</motion.div>
 

@@ -107,14 +107,14 @@ export function Navbar() {
 											</Link>
 										</DropdownMenuItem>
 										<DropdownMenuItem asChild>
-											<Link href={siteConfig.links.linkedin} target="_blank" rel="noreferrer">
+											{/* <Link href={siteConfig.links.linkedin} target="_blank" rel="noreferrer">
 												LinkedIn
-											</Link>
+											</Link> */}
 										</DropdownMenuItem>
 										<DropdownMenuItem asChild>
-											<Link href={siteConfig.links.twitter} target="_blank" rel="noreferrer">
+											{/* <Link href={siteConfig.links.twitter} target="_blank" rel="noreferrer">
 												Twitter
-											</Link>
+											</Link> */}
 										</DropdownMenuItem>
 									</DropdownMenuContent>
 								</DropdownMenu>
@@ -125,9 +125,9 @@ export function Navbar() {
 
 				{/* Desktop actions */}
 				<div className="hidden md:flex items-center gap-4">
-					<Link href="/contact">
+					{/* <Link href="/contact">
 						<Button>Contact Me</Button>
-					</Link>
+					</Link> */}
 				</div>
 			</div>
 		</motion.header>

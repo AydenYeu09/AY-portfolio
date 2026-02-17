@@ -67,9 +67,9 @@ export default function Home() {
 				<>
 					<HeroSection />
 					<AboutPreview />
-					<ProjectsPreview />
-					<SkillsPreview />
-					<ContactPreview />
+					{/* <ProjectsPreview /> */}
+					{/* <SkillsPreview />
+					<ContactPreview /> */}
 				</>
 			)}
 		</>

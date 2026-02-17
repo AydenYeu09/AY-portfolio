@@ -9,39 +9,39 @@ export function Footer() {
 	const currentYear = new Date().getFullYear();
 
 	const socialLinks = [
-		{ icon: <Phone className="h-5 w-5" />, href: siteConfig.links.phone, label: 'Phone' },
+		// { icon: <Phone className="h-5 w-5" />, href: siteConfig.links.phone, label: 'Phone' },
 		{ icon: <Mail className="h-5 w-5" />, href: siteConfig.links.email, label: 'Email' },
-		{ icon: <Linkedin className="h-5 w-5" />, href: siteConfig.links.linkedin, label: 'LinkedIn' },
+		// { icon: <Linkedin className="h-5 w-5" />, href: siteConfig.links.linkedin, label: 'LinkedIn' },
 		{ icon: <Github className="h-5 w-5" />, href: siteConfig.links.github, label: 'GitHub' },
-		{ icon: <MessageSquare className="h-5 w-5" />, href: siteConfig.links.whatsapp, label: 'WhatsApp' },
-		{ icon: <Twitter className="h-5 w-5" />, href: siteConfig.links.twitter, label: 'Twitter' },
-		{ icon: <Facebook className="h-5 w-5" />, href: siteConfig.links.facebook, label: 'Facebook' },
+		// { icon: <MessageSquare className="h-5 w-5" />, href: siteConfig.links.whatsapp, label: 'WhatsApp' },
+		// { icon: <Twitter className="h-5 w-5" />, href: siteConfig.links.twitter, label: 'Twitter' },
+		// { icon: <Facebook className="h-5 w-5" />, href: siteConfig.links.facebook, label: 'Facebook' },
 		{ icon: <Instagram className="h-5 w-5" />, href: siteConfig.links.instagram, label: 'Instagram' },
 	];
 
 	const navColumns = [
 		{
-			title: 'About',
-			links: [
-				{ title: 'About Me', href: '/about' },
-				{ title: 'Education', href: '/education' },
-				{ title: 'Skills', href: '/skills' },
-			],
-		},
-		{
 			title: 'Work',
 			links: [
-				{ title: 'Experience', href: '/experience' },
 				{ title: 'Projects', href: '/projects' },
-				{ title: 'Certificates', href: '/certificates' },
+				// { title: 'Education', href: '/education' },
+				// { title: 'Skills', href: '/skills' },
 			],
 		},
+		// {
+		// 	title: 'Connect',
+		// 	links: [
+		// 		// { title: 'Experience', href: '/experience' },
+		// 		{ title: 'Resume', href: '#', download: true },
+		// 		// { title: 'Certificates', href: '/certificates' },
+		// 	],
+		// },
 		{
-			title: 'Connect',
+			// title: 'Connect',
 			links: [
-				{ title: 'Blog', href: '/blog' },
-				{ title: 'Contact', href: '/contact' },
-				{ title: 'Resume', href: '#', download: true },
+				// { title: 'Blog', href: '/blog' },
+				// { title: 'Contact', href: '/contact' },
+				// { title: 'Resume', href: '#', download: true },
 			],
 		},
 	];
@@ -78,7 +78,7 @@ export function Footer() {
 											<Link
 												href={link.href}
 												className="text-muted-foreground hover:text-primary text-sm transition-colors"
-												{...(link.download ? { download: true } : {})}
+												// {...(link.download ? { download: true } : {})}
 											>
 												{link.title}
 											</Link>
@@ -94,14 +94,14 @@ export function Footer() {
 
 				<div className="flex flex-col sm:flex-row items-center justify-between text-sm">
 					<p className="text-muted-foreground">
-						© {currentYear} Engineering Portfolio. All rights reserved.
+						© {currentYear} Ayden Yeung - Engineering Portfolio
 					</p>
 					<div className="mt-4 sm:mt-0 flex gap-4">
 						<Link href="/privacy" className="text-muted-foreground hover:text-primary transition-colors">
-							Privacy Policy
+							{/* Privacy Policy */}
 						</Link>
 						<Link href="/terms" className="text-muted-foreground hover:text-primary transition-colors">
-							Terms of Service
+							{/* Terms of Service */}
 						</Link>
 					</div>
 				</div>
