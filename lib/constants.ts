@@ -124,7 +124,7 @@ export const projects: Project[] = [
 		description:
 			'Created a system to monitor and analyze performance of solar panels and wind turbines for optimal energy production.',
 		image: '/images/frc.png',
-		tags: ['Data Analysis', 'IoT', 'Renewable Energy', 'Visualization'],
+		tags: ['Java', 'Onshape'],
 		// link: '#',
 		repo: '#',
 	},
