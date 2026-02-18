@@ -1,4 +1,4 @@
-# Morphing Quadcopter ) 
+# Morphing Quadcopter (In Progress) 
 **Current Project**
 
 ## Goal
@@ -47,3 +47,4 @@ Due to this, we spent many work sessions failing to come up with solutions we we
 
 ## Current Update 
 Right now, I'm still in the designing phase, working to model the moving stage (timing belt carriage) of the telescoping arms in Onshape. 
+
