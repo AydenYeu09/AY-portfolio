@@ -136,7 +136,7 @@ export const projects: Project[] = [
 		image: '/images/150g.png',
 		tags: ['Onshape', 'Fusion360', '3D Printing', 'Soldering'],
 		// link: '#',
-		repo: '#',
+		// repo: '#',
 	},
 
 	{
@@ -155,6 +155,7 @@ export const projects: Project[] = [
 			'Programmed and constructed the electronic systems for my group\'s card playing robot, using AprilTag detection to identify card position and values as well as soldered and routed electronics for the robot.',
 		image: '/images/WAR_robot.png',
 		tags: ['Onshape', '3D Printing', 'Soldering'],
+		repo: '#',
 	},
 ];
 

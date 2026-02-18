@@ -71,7 +71,7 @@ export default function ProjectsPage() {
 											<Button size="sm" variant="outline" asChild>
 												<Link href={project.repo} target="_blank" rel="noreferrer">
 													<Github className="h-4 w-4 mr-2" />
-													Repo
+													Description
 												</Link>
 											</Button>
 										)}
