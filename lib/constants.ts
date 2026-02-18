@@ -1,5 +1,5 @@
 export const siteConfig = {
-	name: 'Engineering Portfolio',
+	name: 'Ayden Yeung - Engineering Portfolio',
 	description:
 		'A professional portfolio website template for engineering students.',
 	mainNav: [
