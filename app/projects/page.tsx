@@ -26,7 +26,7 @@ export default function ProjectsPage() {
 					>
 						<h1 className="text-4xl font-bold mb-4">Projects</h1>
 						<p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-							A showcase of my engineering projects, demonstrating my skills and experience in mechanical design, fabrication, and robotics. 
+							A showcase of my engineering projects, demonstrating my skills and experience in mechanical design, fabrication, and robotics. <br></br>Click on the project cards to view GitHub pages with enhanced descriptions!
 						</p>
 					</motion.div>
 
@@ -35,9 +35,13 @@ export default function ProjectsPage() {
 							<motion.div
 								key={index}
 								variants={fadeInScale(index * 0.1)}
-								className="flex"
+								className="flex cursor-pointer"
+								onClick={() => {
+									const url = project.link || project.repo;
+									if (url) window.open(url, '_blank');
+								}}
 							>
-								<Card className="flex flex-col h-full card-gradient">
+								<Card className="flex flex-col h-full card-gradient hover:shadow-lg transition-shadow">
 									<div className="relative h-48 w-full">
 										<Image
 											src={project.image}
@@ -60,21 +64,17 @@ export default function ProjectsPage() {
 									</CardContent>
 									<CardFooter className="p-6 pt-0 gap-2">
 										{project.link && (
-											<Button size="sm" variant="outline" asChild>
-												<Link href={project.link} target="_blank" rel="noreferrer">
-													<ExternalLink className="h-4 w-4 mr-2" />
-													Demo
-												</Link>
+											<Button size="sm" variant="outline">
+												<ExternalLink className="h-4 w-4 mr-2" />
+												Demo
 											</Button>
 										)}
-										{project.repo && (
-											<Button size="sm" variant="outline" asChild>
-												<Link href={project.repo} target="_blank" rel="noreferrer">
-													<Github className="h-4 w-4 mr-2" />
-													Description
-												</Link>
+										{/* {project.repo && (
+											<Button size="sm" variant="outline">
+												<Github className="h-4 w-4 mr-2" />
+												Description
 											</Button>
-										)}
+										)} */}
 									</CardFooter>
 								</Card>
 							</motion.div>

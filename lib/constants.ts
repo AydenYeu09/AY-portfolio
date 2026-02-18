@@ -40,16 +40,16 @@ export const siteConfig = {
 		// 	href: '/contact',
 		// },
 	],
-	links: {
-		github: 'https://github.com/yourusername',
-		// linkedin: 'https://linkedin.com/in/yourusername',
-		// twitter: 'https://twitter.com/yourusername',
-		// facebook: 'https://facebook.com/yourusername',
-		instagram: 'https://instagram.com/yourusername',
-		// whatsapp: 'https://wa.me/yourphonenumber',
-		email: 'ayden.yeu@gmail.com',
-		phone: 'tel:+1234567890',
-	},
+	// links: {
+	// 	github: 'https://github.com/yourusername',
+	// 	// linkedin: 'https://linkedin.com/in/yourusername',
+	// 	// twitter: 'https://twitter.com/yourusername',
+	// 	// facebook: 'https://facebook.com/yourusername',
+	// 	instagram: 'https://instagram.com/yourusername',
+	// 	// whatsapp: 'https://wa.me/yourphonenumber',
+	// 	email: 'ayden.yeu@gmail.com',
+	// 	phone: 'tel:+1234567890',
+	// },
 };
 
 export type Experience = {
@@ -113,7 +113,7 @@ export const projects: Project[] = [
 	{
 		title: 'Calctastrophe: Beetleweight Combat Robot (Current)',
 		description:
-			'Developed software for structural analysis of beams and trusses using numerical methods and visualization techniques.',
+			'Currently building a 3lb combat robot for the Beetleweight class, featuring two assymetric vertical spinners and a four-wheel brushed drive system. I plan to finish the project within the next two months and compete at the Norwalk Havoc Robotics League.',
 		image: '/images/cb.png',
 		tags: ['Onshape', 'Fusion360', '3D Printing', 'CNC Machining', 'Soldering'],
 		// link: '#',
@@ -122,7 +122,7 @@ export const projects: Project[] = [
 	{
 		title: 'FIRST Robotics Competition Software and CAD Work (2023-2026)',
 		description:
-			'Created a system to monitor and analyze performance of solar panels and wind turbines for optimal energy production.',
+			'Contributed to the software development and CAD design for my high school\'s FIRST Robotics Competition team, including programming autonomous routines in Java and designing mechanical components in Onshape for multiple competition seasons.',
 		image: '/images/frc.png',
 		tags: ['Java', 'Onshape'],
 		// link: '#',

@@ -8,16 +8,16 @@ import { Separator } from '@/components/ui/separator';
 export function Footer() {
 	const currentYear = new Date().getFullYear();
 
-	const socialLinks = [
-		// { icon: <Phone className="h-5 w-5" />, href: siteConfig.links.phone, label: 'Phone' },
-		{ icon: <Mail className="h-5 w-5" />, href: siteConfig.links.email, label: 'Email' },
-		// { icon: <Linkedin className="h-5 w-5" />, href: siteConfig.links.linkedin, label: 'LinkedIn' },
-		{ icon: <Github className="h-5 w-5" />, href: siteConfig.links.github, label: 'GitHub' },
-		// { icon: <MessageSquare className="h-5 w-5" />, href: siteConfig.links.whatsapp, label: 'WhatsApp' },
-		// { icon: <Twitter className="h-5 w-5" />, href: siteConfig.links.twitter, label: 'Twitter' },
-		// { icon: <Facebook className="h-5 w-5" />, href: siteConfig.links.facebook, label: 'Facebook' },
-		{ icon: <Instagram className="h-5 w-5" />, href: siteConfig.links.instagram, label: 'Instagram' },
-	];
+	// const socialLinks = [
+	// 	// { icon: <Phone className="h-5 w-5" />, href: siteConfig.links.phone, label: 'Phone' },
+	// 	// { icon: <Mail className="h-5 w-5" />, href: siteConfig.links.email, label: 'Email' },
+	// 	// // { icon: <Linkedin className="h-5 w-5" />, href: siteConfig.links.linkedin, label: 'LinkedIn' },
+	// 	// { icon: <Github className="h-5 w-5" />, href: siteConfig.links.github, label: 'GitHub' },
+	// 	// // { icon: <MessageSquare className="h-5 w-5" />, href: siteConfig.links.whatsapp, label: 'WhatsApp' },
+	// 	// // { icon: <Twitter className="h-5 w-5" />, href: siteConfig.links.twitter, label: 'Twitter' },
+	// 	// // { icon: <Facebook className="h-5 w-5" />, href: siteConfig.links.facebook, label: 'Facebook' },
+	// 	// { icon: <Instagram className="h-5 w-5" />, href: siteConfig.links.instagram, label: 'Instagram' },
+	// ];
 
 	const navColumns = [
 		{
@@ -52,12 +52,12 @@ export function Footer() {
 				<div className="grid grid-cols-1 md:grid-cols-4 gap-8">
 					<div className="md:col-span-1">
 						<Link href="/" className="inline-block">
-							<span className="text-2xl font-bold text-gradient">Portfolio</span>
+							<span className="text-2xl font-bold text-gradient">Ayden Yeung's Portfolio</span>
 						</Link>
 						<p className="mt-4 text-sm text-muted-foreground">
-							A professional portfolio showcasing my skills, projects, and achievements in engineering.
+							Ayden Yeung - Engineering Portfolio. Showcasing my projects and passion for engineering, from robotics to web development.
 						</p>
-						<div className="mt-6 flex flex-wrap gap-3">
+						{/* <div className="mt-6 flex flex-wrap gap-3">
 							{socialLinks.map((link, index) => (
 								<Button key={index} size="icon" variant="outline" asChild>
 									<Link href={link.href} aria-label={link.label} target="_blank" rel="noreferrer">
@@ -65,7 +65,7 @@ export function Footer() {
 									</Link>
 								</Button>
 							))}
-						</div>
+						</div> */}
 					</div>
 
 					<div className="md:col-span-3 grid grid-cols-1 sm:grid-cols-3 gap-8">

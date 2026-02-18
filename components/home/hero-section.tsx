@@ -28,7 +28,7 @@ export function HeroSection() {
 					scale: 0.8,
 					scaleMobile: 0.8,
 					color: 0xff3f81,
-					backgroundColor: 0x23153c,
+					backgroundColor: 0x1a1a1a,
 					points: 10.00,
 					maxDistance: 15.00,
 					spacing: 20.00,
@@ -72,7 +72,7 @@ export function HeroSection() {
 						variants={fadeIn('up', 0.5)}
 						className="mt-6 text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto"
 					>
-						A showcase of my projects and passion for engineering, from robotics to programming.
+						A showcase of my projects and passion for engineering, from robotics to web development.
 					</motion.p>
 
 					<motion.div

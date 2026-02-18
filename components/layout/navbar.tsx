@@ -48,7 +48,7 @@ export function Navbar() {
 							whileHover={{ scale: 1.05 }}
 							className="font-bold text-2xl text-gradient"
 						>
-							Portfolio
+							Ayden Yeung's Portfolio
 						</motion.div>
 					</Link>
 					<nav className="hidden md:flex gap-6">
@@ -102,9 +102,9 @@ export function Navbar() {
 									</DropdownMenuTrigger>
 									<DropdownMenuContent align="end">
 										<DropdownMenuItem asChild>
-											<Link href={siteConfig.links.github} target="_blank" rel="noreferrer">
+											{/* <Link href={siteConfig.links.github} target="_blank" rel="noreferrer">
 												GitHub
-											</Link>
+											</Link> */}
 										</DropdownMenuItem>
 										<DropdownMenuItem asChild>
 											{/* <Link href={siteConfig.links.linkedin} target="_blank" rel="noreferrer">
