@@ -108,7 +108,7 @@ export const projects: Project[] = [
 		image: '/images/md.png',
 		tags: ['Onshape', 'MATLAB', 'Python', 'Control Systems', '3D Printing'],
 		// link: '#',
-		repo: '#',
+		repo: 'https://aydenyeu09.github.io/AY-portfolio/morphing_quad/',
 	},
 	{
 		title: 'Calctastrophe: Beetleweight Combat Robot (Current)',
@@ -117,7 +117,7 @@ export const projects: Project[] = [
 		image: '/images/cb.png',
 		tags: ['Onshape', 'Fusion360', '3D Printing', 'CNC Machining', 'Soldering'],
 		// link: '#',
-		repo: 'https://github.com/AydenYeu09/CalcTastrophe-3lb-Vert',
+		repo: 'https://aydenyeu09.github.io/AY-portfolio/3lb',
 	},
 	{
 		title: 'FIRST Robotics Competition Software and CAD Work (2023-2026)',
@@ -126,7 +126,7 @@ export const projects: Project[] = [
 		image: '/images/frc.png',
 		tags: ['Java', 'Onshape'],
 		// link: '#',
-		repo: '#',
+		repo: 'https://aydenyeu09.github.io/AY-portfolio/FRC',
 	},
 
 	{
@@ -146,7 +146,7 @@ export const projects: Project[] = [
 		image: '/images/bb.png',
 		tags: ['Web Development', 'JavaScript', 'Bootstrap', 'Node.js'],
 		// link: '#',
-		repo: '#',
+		repo: 'https://aydenyeu09.github.io/AY-portfolio/better_buildings',
 	},
 
 	{
@@ -155,7 +155,7 @@ export const projects: Project[] = [
 			'Programmed and constructed the electronic systems for my group\'s card playing robot, using AprilTag detection to identify card position and values as well as soldered and routed electronics for the robot.',
 		image: '/images/WAR_robot.png',
 		tags: ['Onshape', '3D Printing', 'Soldering'],
-		repo: '#',
+		repo: 'https://aydenyeu09.github.io/AY-portfolio/WAR',
 	},
 ];
 
