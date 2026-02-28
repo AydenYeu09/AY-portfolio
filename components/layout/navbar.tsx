@@ -95,10 +95,10 @@ export function Navbar() {
 							<div className="mt-auto pt-4">
 								<DropdownMenu>
 									<DropdownMenuTrigger asChild>
-										<Button variant="outline" className="w-full justify-between">
+										{/* <Button variant="outline" className="w-full justify-between">
 											Social Links
 											<ChevronDown className="h-4 w-4 ml-2" />
-										</Button>
+										</Button> */}
 									</DropdownMenuTrigger>
 									<DropdownMenuContent align="end">
 										<DropdownMenuItem asChild>
