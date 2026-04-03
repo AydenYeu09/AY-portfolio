@@ -1,5 +1,5 @@
 # Better Buildings (2024 Congressional App Challenge MD08 Winner) 
-**June-Novemeber (2024)**
+**June-November (2024)**
 
 ## Goal
 Develop and implement a web app solution that would increase transparency in Montgomery County Public Schools regarding building repairs and infrastructure decisions.
