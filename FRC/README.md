@@ -5,7 +5,7 @@
 
 ## Overview
 
-Developed programming systems for various FRC Robots during my time on the team. 
+Using Java, I programmed various subsystems for FRC Robots during my time on the team. 
 
 ---
 
@@ -18,8 +18,8 @@ Developed programming systems for various FRC Robots during my time on the team.
 
 
 ### Software
-- Implented PathPlanner and Choreo to create trajectories in the autonomous game period
-- Programmed various subsystems including our robot shooter ('24,'25,'26), intake ('24,'26)
+- Implented PathPlanner and Choreo (trajectory builders) to create trajectories in the autonomous game period
+- Programmed various subsystems including our robot's shooter ('24,'25,'26), intake ('24,'26), and climber ('24, '25)
 - Developed specific functionalities such as Auto Align to improve scoring efficiency using AprilTags
 
 ---
@@ -32,8 +32,14 @@ Developed programming systems for various FRC Robots during my time on the team.
 ### CAD Model
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/8ad9260e-ca38-4383-88e2-34c42e5b49d3" />
 
-### Prototyping Physical Robot (2026) 
-<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/ec75f49c-2f99-446a-b649-41ee6353e82b" />
+### Competition Robot (2026)
+![55182518289_e0f8fcd3f5_o](https://github.com/user-attachments/assets/1717a375-ed92-48c2-bb94-99e125482e72)
+
+### Testing Videos
+https://github.com/user-attachments/assets/28c1ca27-55fa-490e-ac0b-2c333a15070d
+
+https://github.com/user-attachments/assets/01d464dd-e1da-4f38-953a-05a1b234fe5a
+
 
 
 ---
