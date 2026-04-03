@@ -136,7 +136,7 @@ export const projects: Project[] = [
 		image: '/images/150g.png',
 		tags: ['Onshape', 'Fusion360', '3D Printing', 'Soldering'],
 		// link: '#',
-		repo: 'https://aydenyeu09.github.io/AY-portfolio/150g',
+		// repo: 'https://aydenyeu09.github.io/AY-portfolio/150g',
 	},
 
 	{
