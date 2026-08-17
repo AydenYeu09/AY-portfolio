@@ -113,7 +113,7 @@ export const projects: Project[] = [
 	{
 		title: 'Calctastrophe: Beetleweight Combat Robot (Current)',
 		description:
-			'Currently building a 3lb combat robot for the Beetleweight class, featuring two assymetric vertical spinners and a four-wheel brushed drive system. I plan to finish the project within the next two months and compete at the Norwalk Havoc Robotics League.',
+			'Currently building a 3lb combat robot for the Beetleweight class, featuring two asymmetric vertical spinners and a four-wheel brushed drive system. I plan to finish the project within the next two months and compete at the Norwalk Havoc Robotics League.',
 		image: '/images/cb.png',
 		tags: ['Onshape', 'Fusion360', '3D Printing', 'CNC Machining', 'Soldering'],
 		// link: '#',
