@@ -102,11 +102,11 @@ export type Project = {
 
 export const projects: Project[] = [
 	{
-		title: 'Morphing Quadcopter (Current)',
+		title: 'ASTRALIS: An Overactuated Aerial Manipulation Quadcopter (Current)',
 		description:
-			'Currently designing and building a quadcopter with telescoping arms and active rotor tilt to study how these changes can enhance stability under varying gust patterns. I plan to implement a control system that adjusts the arm length and rotor tilt in real time based on sensor feedback.',
-		image: '/images/md.png',
-		tags: ['Onshape', 'MATLAB', 'Python', 'Control Systems', '3D Printing'],
+			'Currently designing and building a quadcopter with a robotic arm and active rotor tilt to study if a servo-controlled thrust-vectoring model can effectively counteract the disturbances induced by the arm.',
+		image: '/images/astralis.png',
+		tags: ['Onshape', 'Fusion360', 'MATLAB', 'Python', 'Control Systems', '3D Printing'],
 		// link: '#',
 		repo: 'https://aydenyeu09.github.io/AY-portfolio/morphing_quad/',
 	},
